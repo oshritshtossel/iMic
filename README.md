@@ -7,13 +7,19 @@ For full explanation see our paper.\
 microbiome2matrix - translate the ASVs to images\
 nni_data_loader - load the dataset for the learning.\
 main_nni_runner_tt - perform the learning itself. 
-Choose a model:
-Options: naeive, cnn1, cnn2\
-Choose a dataset:
-Options: IBD, Male_vs_female, Cirrhosis_no_virus, new_allergy_milk, new_allergy_peanuts, new_allergy_nut, nugent, white_vs_black_vagina\
-Choose a D_mode:
-Options : "1D", "IEEE", "dendogram"\
-Choose a specific tag:
+Choose a model:\
+Options: naeive, cnn1, cnn2
+
+
+Choose a dataset:\
+Options: IBD, Male_vs_female, Cirrhosis_no_virus, new_allergy_milk, new_allergy_peanuts, new_allergy_nut, nugent, white_vs_black_vagina
+
+
+Choose a D_mode:\
+Options : "1D", "IEEE", "dendogram"
+
+
+Choose a specific tag:\
 Note : Most of the datasets do not need a special tag, but in IBD dataset we have several tags: CD, IBD./
 
 # gMic and gMic + v
