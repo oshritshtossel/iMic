@@ -1,0 +1,1 @@
+{"activation": "elu", "batch_size": 5.0, "dropout": 0.1350110496288536, "epochs": 200.0, "layer_1": 26.0, "layer_2": 136.0, "learning_rate": 0.1228596027975379, "optimizer": "SGD", "preweight": 5.0, "regularization": 0.0173606139577906, "test_frac": 0.15, "train_frac": 0.7}

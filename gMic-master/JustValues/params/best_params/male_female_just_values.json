@@ -1,0 +1,1 @@
+{"activation": "elu", "batch_size": 30.0, "dropout": 0.0455119155411129, "epochs": 200.0, "layer_1": 61.0, "layer_2": 180.0, "learning_rate": 0.0307037141010832, "optimizer": "adam", "preweight": 3.0, "regularization": 0.0001537847669726, "test_frac": 0.15, "train_frac": 0.7}

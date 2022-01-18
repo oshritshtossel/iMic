@@ -1,0 +1,1 @@
+{"activation": "relu", "batch_size": 5.0, "dropout": 0.0638461001800836, "epochs": 200.0, "layer_1": 64.0, "layer_2": 141.0, "learning_rate": 0.3655722771020286, "optimizer": "SGD", "preweight": 69.0, "regularization": 0.0063559444428848, "test_frac": 0.15, "train_frac": 0.7}
