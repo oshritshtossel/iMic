@@ -20,11 +20,18 @@ Options : "1D", "IEEE", "dendogram"
 
 
 Choose a specific tag:\
-Note : Most of the datasets do not need a special tag, but in IBD dataset we have several tags: CD, IBD./
+Note : Most of the datasets do not need a special tag, but in IBD dataset we have several tags: CD, IBD.
+ 
+Notice that iMic-CNN2 is D_mode = "dendogram" and model = "cnn2", and iMic-CNN1 is D_mode = "dendogram" and model = "cnn1".
+All the other options are for comparisons used in the paper.
+
+explainable_ai - code for model's intrpretation, Grad-Cam images, trees projection, and influencing taxa.
+
+
 
 # gMic and gMic + v
 gMic uses only the structure of the taxonomy tree of the samples, ignoring the the abundances of the bacterias.
-The tree structure is learnt via GCN layers.\
+The tree structure is learnt via GCN layers.
 
 Choose one of the datasets:
 
