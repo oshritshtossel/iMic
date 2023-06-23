@@ -1,9 +1,9 @@
 # Image and graph based microbiome representation for host classification
-This code is attached to the paper Image and graph based microbiome representation for host classification.
+This code is attached to the paper "Ordering taxa in image convolution networks improves microbiome-based machine learning accuracy".
 We suggest two novel methods to combine information from different bacteria and improve data representation for machine learning using  bacterial taxonomy. 
 # iMic
-iMic translates the values and structure of the taxonomy tree to images and then apllies CNN on the images.
-For full explanation see our paper.\
+iMic translates the values and structure of the taxonomy tree to images and then applies CNN to the images.
+For a full explanation, please take a look at our paper.\
 microbiome2matrix - translate the ASVs to images\
 nni_data_loader - load the dataset for the learning.\
 main_nni_runner_tt - perform the learning itself. 
@@ -44,3 +44,6 @@ For example: python new_main.py --task_number 2 --dataset cirrhosis
 
 gMic + v combines the structure of the graph and the abundances of the bacterias in order to improve learning performances.
 ![](plots/NEW_try_fig1_v3_with_chaim_laorech_.png)
+
+# Cite us
+Shtossel O, Isakov H, Turjeman S, Koren O, Louzoun Y. Ordering taxa in image convolution networks improves microbiome-based machine learning accuracy. Gut Microbes. 2023 Jan-Dec;15(1):2224474. doi: 10.1080/19490976.2023.2224474. PMID: 37345233.
